@@ -1,0 +1,103 @@
+@use '../../scss' as *;
+.body{
+    // border:2px solid red;
+}
+.bodyend-right-sectiontwo {
+    width: 50%;
+    // border:2px solid red;
+    @include xsBreakPoint {
+        // height: 100%;
+        width: 100%;
+    }
+    @include smBreakPoint {
+        width: 100%;
+    }
+    @include lgBreakPoint {
+        width: 100%;
+    }
+}
+.bodyend-left-sectiontwo {
+    width: 50%;
+    // border:2px solid red;
+    @include smBreakPoint {
+        width: 100%;      
+       
+    }
+    @include xsBreakPoint {
+        width: 100%;
+        
+        padding-bottom: 5%;
+    }
+    @include mdBreakPoint {
+        width: 80%;
+        padding-bottom: 5%;
+    }
+}
+.box-left {
+    width: 70%;
+    // background: orange;
+    h1{
+        font-size: 2.0rem;  
+        @include xsBreakPoint {
+            font-size: 1.5rem; 
+        }
+        @include mdBreakPoint {
+            font-size: 1.7rem; 
+        }
+    }
+    @include xsBreakPoint {
+        width: 90%;
+       
+        // background: orange;
+    }
+    @include smBreakPoint {
+        width: 80%;
+       
+    }
+    @include mdBreakPoint {
+        width: 80%;
+        padding-left: 5%;
+    }
+    @include lgBreakPoint {
+        width: 80%;
+        padding-left: 0%;
+    }
+}
+.box-right {
+    width: 100%;
+    height:100%;
+   
+    @include xsBreakPoint {
+        // display: none;
+        width: 70%;
+    }
+    @include smBreakPoint {
+        // display: none;
+        width: 80%;
+    }
+    @include mdBreakPoint {
+        width: 100%;
+        // height:100%;
+    }
+    @include lgBreakPoint {
+        width: 100%;
+        // height:100%;
+    }
+}
+.logo-bottom {
+    height: 50%;
+    width: 50%;
+    // border-radius:8px;
+    @include smBreakPoint {
+        height: 30%;
+        width: 50%;
+    }
+    @include lgBreakPoint {
+        height: 100%;
+        width: 100%;
+    }
+    @include mdBreakPoint {
+        height: 70%;
+        width: 100%;
+    }
+}

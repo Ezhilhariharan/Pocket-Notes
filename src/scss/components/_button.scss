@@ -1,0 +1,12 @@
+@use '../abstract' as *;
+
+.btn{
+    background: blue;
+  width: 10em;
+  height: 2.5rem;
+  color: skyblue;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Gilroy-regular';
+}

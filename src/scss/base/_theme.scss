@@ -1,0 +1,42 @@
+@use '../abstract/variables' as *;
+//
+// $background: 'background';
+// $background-alt: 'background-alt';
+// $background2: 'background2';
+// $text-color-2: 'text-color-2';
+// $text-color-3: 'text-color-3' ;
+// $text-color-4: 'text-color-4';
+// $hr-color: 'hr-color';
+// $shadow: 'shadow';
+// $shadow2: 'shadow2';
+// $badge-background-color: 'badge-background-color';
+// $badge-text-color: 'badge-text-color';
+//
+$themes: (
+    default: (
+        // background: $background--light,
+        // background-alt: $background-alt--light,
+        // background2: $background2--light,
+        // text-color-2: $text-color-2--light,
+        // text-color-3: $text-color-3--light,
+        // text-color-4: $text-color-4--light,
+        // hr-color: $hr-color--light,
+        // shadow: $shadow--light,
+        // shadow2: $shadow2--light,
+        // badge-background-color: $badge-background-color--light,
+        // badge-text-color: $badge-text-color--light
+    ),
+    dark: (
+        // background: $background--dark,
+        // background-alt: $background-alt--dark,
+        // background2: $background2--dark,
+        // text-color-2: $text-color-2--dark,
+        // text-color-3: $text-color-3--dark,
+        // text-color-4: $text-color-4--dark,
+        // hr-color: $hr-color--dark,
+        // shadow: $shadow--dark,
+        // shadow2: $shadow2--dark,
+        // badge-background-color: $badge-background-color--dark,
+        // badge-text-color: $badge-text-color--dark
+    ),
+);
